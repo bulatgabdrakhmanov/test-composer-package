@@ -1,11 +1,14 @@
 {
     "name": "bulat/subs",
     "description": "Test package",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Bulat Gabdrakhmanov",
             "email": "bulat.gab2000@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {"Machaon\\Subs\\": "src/Subs"}
+    }
 }
